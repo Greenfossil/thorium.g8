@@ -1,4 +1,4 @@
-val scala3Version = "3.2.0"
+val scala3Version = "3.3.0"
 
 lazy val root = project
   .in(file("."))
@@ -10,6 +10,6 @@ lazy val root = project
   )
 
 libraryDependencies ++= Seq(
-  "com.greenfossil" %% "thorium" % "0.6.4" withSources(),
+  "com.greenfossil" %% "thorium" % "0.6.6" withSources(),
   "org.scalameta" %% "munit" % "0.7.29" % Test
 )
