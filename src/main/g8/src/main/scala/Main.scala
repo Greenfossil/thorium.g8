@@ -1,5 +1,5 @@
 import com.greenfossil.thorium.{Server, Action}
-import controllers.{SimpleController}
+import controllers.SimpleController
 
 @main def start: Unit =
   Server()
