@@ -1,6 +1,5 @@
 package controllers
 
-import com.greenfossil.thorium.Action
 import com.linecorp.armeria.server.annotation.{Get, Param}
 
 object SimpleController:
