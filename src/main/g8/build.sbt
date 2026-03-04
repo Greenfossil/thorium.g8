@@ -7,7 +7,7 @@ lazy val root = project
   )
 
 libraryDependencies ++= Seq(
-  "com.greenfossil" %% "thorium" % "0.11.39" withSources(),
+  "com.greenfossil" %% "thorium" % "0.10.10" withSources(),
   "org.slf4j" % "slf4j-api" % "2.0.17",
   "ch.qos.logback" % "logback-classic" % "1.5.18" % Test,
   "org.scalameta" %% "munit" % "1.2.1" % Test
